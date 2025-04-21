@@ -14,7 +14,7 @@
             </form>
 
             <footer class="footer mt-5">
-                <p class="text-muted">Desenvolvido por: Seu nome </p>
+                <p class="text-muted">Desenvolvido por: João Pedro </p>
             </footer>
         </div>
     </div>
