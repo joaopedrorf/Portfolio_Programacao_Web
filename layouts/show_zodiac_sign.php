@@ -1,8 +1,8 @@
 <?php 
 include('header.php');
 $data_nascimento = DateTime::createFromFormat('Y-m-d', $_POST['data_nascimento']);
-if($data_nascimento) {
-    echo("<p>Data é ivalida</p> <a href='index.php'>Voltar</a>");
+if(!$data_nascimento) {
+    echo("<p>Data é inválida</p> <a href='index.php'>Voltar</a>");
 }
 
 $signos = simplexml_load_file('signos.xml');
